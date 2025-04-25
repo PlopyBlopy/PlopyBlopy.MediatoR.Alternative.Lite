@@ -28,7 +28,7 @@ jobs:
 
       # Шаг 3: Восстановление зависимостей
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln
 
       # Шаг 4: Сборка
       - name: Build
