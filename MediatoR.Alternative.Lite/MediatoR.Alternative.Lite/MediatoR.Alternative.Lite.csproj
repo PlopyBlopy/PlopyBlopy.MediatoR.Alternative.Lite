@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<PackageId>MediatoR.Alternative.Light</PackageId>
+		<Title>MediatoR.Alternative.Light</Title>
+		<Version>1.0.0-alpha</Version>
+		<Authors>PlopyBlopy</Authors>
+		<Description>A lightweight Mediator alternative for Request processing, with Pipeline Behavior.</Description>
+		<PackageTags>mediator</PackageTags>
+		<RepositoryUrl>https://github.com/PlopyBlopy/MediatoR.Alternative</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentResults" Version="3.16.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.4" />
+  </ItemGroup>
+
+</Project>
+
+
+
