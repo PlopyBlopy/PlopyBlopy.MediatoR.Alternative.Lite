@@ -32,11 +32,11 @@ jobs:
 
       # Шаг 4: Сборка
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln --configuration Release --no-restore
 
       # Шаг 5: Тесты
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal
+        run: dotnet test ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln --configuration Release --no-build
 
       # Шаг 6: Извлечение версии из тега (только для релизных сборок)
       - name: Extract version from tag
@@ -49,7 +49,7 @@ jobs:
       # Шаг 7: Создание пакета
       - name: Pack
         run: |
-          dotnet pack ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite/${{ env.PACKAGE_NAME }}.csproj \
+          dotnet pack ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.csproj \
             --configuration Release \
             --no-build \
             --output ./artifacts \
