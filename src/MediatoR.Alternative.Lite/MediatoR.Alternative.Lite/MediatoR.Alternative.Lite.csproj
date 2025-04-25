@@ -4,7 +4,7 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<PackageId>MediatoR.Alternative.Light</PackageId>
 		<Title>MediatoR.Alternative.Light</Title>
-		<Version>1.0.0.1</Version>
+		<Version>1.0.0.2</Version>
 		<Authors>PlopyBlopy</Authors>
 		<Description>A lightweight Mediator alternative for Request processing, with Pipeline Behavior.</Description>
 		<PackageTags>mediator</PackageTags>
