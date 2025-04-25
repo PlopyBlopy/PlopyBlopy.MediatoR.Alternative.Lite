@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "MediatoR.Alternative.Lite/1.0.0-alpha": {
+      "MediatoR.Alternative.Lite/1.0.0.1": {
         "dependencies": {
           "FluentResults": "3.16.0",
           "FluentValidation": "11.11.0",
@@ -56,7 +56,7 @@
     }
   },
   "libraries": {
-    "MediatoR.Alternative.Lite/1.0.0-alpha": {
+    "MediatoR.Alternative.Lite/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "MediatoR.Alternative.Lite\\ValidationBehavior.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:56.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T18:51:56.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Sender.cs",
               "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\Sender.cs",
               "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\Sender.cs",
@@ -79,15 +78,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MediatorAltExtension.cs",
               "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
               "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
               "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
               "RelativeToolTip": "MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:52.808Z"
+              "WhenOpened": "2025-04-25T18:51:52.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ISender.cs",
               "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\ISender.cs",
               "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\ISender.cs",
@@ -163,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MediatoR.Alternative.Lite.csproj",
               "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
               "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
@@ -171,8 +171,7 @@
               "RelativeToolTip": "MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-25T17:27:08.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T17:27:08.948Z"
             }
           ]
         }

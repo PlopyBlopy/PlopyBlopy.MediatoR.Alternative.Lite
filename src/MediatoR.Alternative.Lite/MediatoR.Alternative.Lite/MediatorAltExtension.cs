@@ -20,6 +20,8 @@ namespace MediatoR.Alternative.Lite
         /// </remarks>
         public static IServiceCollection AddMediatorAlt(this IServiceCollection services)
         {
+            services.AddScoped<ISender, Sender>();
+
             // Scan current assembly for handler implementations
             var handlers = Assembly.GetExecutingAssembly().GetTypes()
                 .Where(t => t.GetInterfaces().Any(i =>

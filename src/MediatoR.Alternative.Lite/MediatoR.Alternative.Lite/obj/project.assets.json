@@ -220,7 +220,6 @@
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\NuGet.Config",
         "C:\\Users\\Alexey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -230,6 +229,7 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
         "https://nuget.pkg.github.com/PlopyBlopy/index.json": {}
       },
       "frameworks": {
