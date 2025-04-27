@@ -1,0 +1,15 @@
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Debug\net9.0\MediatoR.Alternative.Lite.deps.json
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Debug\net9.0\MediatoR.Alternative.Lite.dll
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Debug\net9.0\MediatoR.Alternative.Lite.pdb
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.csproj.AssemblyReference.cache
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.AssemblyInfoInputs.cache
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.AssemblyInfo.cs
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.csproj.CoreCompileInputs.cache
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.sourcelink.json
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.dll
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\refint\MediatoR.Alternative.Lite.dll
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.pdb
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\ref\MediatoR.Alternative.Lite.dll
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Debug\net9.0\MediatoR.Alternative.Lite.xml
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj\Debug\net9.0\MediatoR.Alternative.Lite.xml

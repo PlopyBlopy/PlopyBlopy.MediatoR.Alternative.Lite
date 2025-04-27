@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MediatoR.Alternative.Lite</name>
+    </assembly>
+    <members>
+        <member name="T:MediatoR.Alternative.Lite.IPipelineBehavior`2">
+            <summary>
+            Base interface for pipeline behaviors (middleware)
+            </summary>
+            <typeparam name="TRequest">Request type</typeparam>
+            <typeparam name="TResponse">Response type</typeparam>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.IPipelineBehavior`2.Handle(`0,System.Threading.CancellationToken,System.Func{System.Threading.Tasks.Task{FluentResults.Result{`1}}})">
+            <summary>
+            Pipeline handler method
+            </summary>
+            <param name="request">Incoming request</param>
+            <param name="cancellationToken">Cancellation token</param>
+            <param name="next">Next delegate in pipeline</param>
+            <returns>Final processed response</returns>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.IRequest`1">
+            <summary>
+            Marker interface for requests that return a specific response type
+            </summary>
+            <typeparam name="TResponse">Expected response type for the request</typeparam>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.IRequestHandler`2">
+            <summary>
+            Handles execution of a specific request type
+            </summary>
+            <typeparam name="TRequest">Type of request being handled</typeparam>
+            <typeparam name="TResponse">Type of response returned</typeparam>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.IRequestHandler`2.Handle(`0,System.Threading.CancellationToken)">
+            <summary>
+            Processes the request and returns a wrapped result
+            </summary>
+            <param name="request">Request instance to handle</param>
+            <param name="ct">Cancellation token</param>
+            <returns>
+            Task containing Result with either:
+            - Success: Valid response data
+            - Error: Domain or infrastructure failure
+            </returns>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.ISender">
+            <summary>
+            Represents a service for sending requests and handling the execution pipeline
+            </summary>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.ISender.Send``1(MediatoR.Alternative.Lite.IRequest{``0},System.Threading.CancellationToken)">
+            <summary>
+            Executes a request and returns a wrapped response with error handling
+            </summary>
+            <typeparam name="TResponse">The expected response type</typeparam>
+            <param name="request">The request to execute (command/query)</param>
+            <param name="ct">Cancellation token for aborting the operation</param>
+            <returns>
+            Task containing a Result wrapper with either:
+            - Success: Contains the response data
+            - Error: Contains validation or execution errors
+            </returns>
+            <remarks>
+            Implementations should:
+            1. Find the appropriate request handler
+            2. Execute any registered pipeline behaviors
+            3. Handle errors and wrap results consistently
+            </remarks>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.LoggingBehavior`2">
+            <summary>
+            Example pipeline behavior for request logging
+            </summary>
+            <typeparam name="TRequest">Request type</typeparam>
+            <typeparam name="TResponse">Response type</typeparam>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.LoggingBehavior`2.Handle(`0,System.Threading.CancellationToken,System.Func{System.Threading.Tasks.Task{FluentResults.Result{`1}}})">
+            <summary>
+            Basic logging implementation that just continues the pipeline
+            </summary>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.MediatorAltExtension">
+            <summary>
+            Provides extension methods for configuring the custom mediator implementation
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:MediatoR.Alternative.Lite.MediatorAltExtension.AddMediatorAlt(Microsoft.Extensions.DependencyInjection.IServiceCollection)" -->
+        <member name="M:MediatoR.Alternative.Lite.MediatorAltExtension.AddMediatorAltLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds logging pipeline behavior to the mediator
+            </summary>
+            <param name="services">Service collection</param>
+            <returns>Service collection with logging behavior</returns>
+            <remarks>
+            - Registers LoggingBehavior globally for all requests
+            - Typically should be first in the pipeline chain
+            - Method name contains 'FluentValidation' but registers logging (potential misnaming)
+            </remarks>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.MediatorAltExtension.AddMediatorAltFluentValidation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds validation pipeline behavior to the mediator
+            </summary>
+            <param name="services">Service collection</param>
+            <returns>Service collection with validation behavior</returns>
+            <remarks>
+            - Registers ValidationBehavior globally for all requests
+            - Executes before the handler based on pipeline order
+            - Requires validators to be registered separately
+            </remarks>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.Sender.Send``1(MediatoR.Alternative.Lite.IRequest{``0},System.Threading.CancellationToken)">
+            <summary>
+            Sends a request through the handler pipeline
+            </summary>
+            <typeparam name="TResponse">Response type</typeparam>
+            <param name="request">Request object</param>
+            <param name="ct">Cancellation token</param>
+            <returns>Result wrapped response</returns>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.Sender.SendPipeline``1(MediatoR.Alternative.Lite.IRequest{``0},System.Object,System.Type,System.Type,System.Threading.CancellationToken)">
+            <summary>
+            Builds and executes the processing pipeline with registered behaviors
+            </summary>
+            <typeparam name="TResponse">Response type</typeparam>
+            <param name="request">Request object</param>
+            <param name="handler">Resolved request handler</param>
+            <param name="requestType">Type of the request</param>
+            <param name="responseType">Type of the response</param>
+            <param name="ct">Cancellation token</param>
+            <returns>Result wrapped response</returns>
+        </member>
+        <member name="T:MediatoR.Alternative.Lite.ValidationBehavior`2">
+            <summary>
+            Validation pipeline behavior that executes request validators
+            </summary>
+            <typeparam name="TRequest">Request type</typeparam>
+            <typeparam name="TResponse">Response type</typeparam>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.ValidationBehavior`2.#ctor(System.Collections.Generic.IEnumerable{FluentValidation.IValidator{`0}})">
+            <summary>
+            Initializes validation behavior
+            </summary>
+            <param name="validators">Registered validators for the request type</param>
+        </member>
+        <member name="M:MediatoR.Alternative.Lite.ValidationBehavior`2.Handle(`0,System.Threading.CancellationToken,System.Func{System.Threading.Tasks.Task{FluentResults.Result{`1}}})">
+            <summary>
+            Validates the request before executing the handler
+            </summary>
+        </member>
+    </members>
+</doc>

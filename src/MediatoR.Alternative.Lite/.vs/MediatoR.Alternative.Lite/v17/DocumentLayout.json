@@ -1,46 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\",
+  "WorkspaceRootPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediator.alternative.lite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\ipipelinebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\ipipelinebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\users\\alexey\\source\\repos\\libraries\\mediator.alternative\\src\\mediator.alternative.lite\\mediator.alternative.lite\\errors\\validationfielderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE55B75-0EC3-4ED3-A5FB-0734FE7B920A}|MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:mediator.alternative.lite\\errors\\validationfielderror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A494E29-2043-4209-B52F-6C67AB4A55B1}|tests\\MediatoR.Alternative.Lite.Tests\\MediatoR.Alternative.Lite.Tests.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\tests\\mediator.alternative.lite.tests\\unit\\mediatoraltextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A494E29-2043-4209-B52F-6C67AB4A55B1}|tests\\MediatoR.Alternative.Lite.Tests\\MediatoR.Alternative.Lite.Tests.csproj|solutionrelative:tests\\mediator.alternative.lite.tests\\unit\\mediatoraltextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,127 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidationBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\ValidationBehavior.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\ValidationBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:56.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Sender.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\Sender.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\Sender.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\Sender.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\Sender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:54.534Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MediatorAltExtension.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:52.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoggingBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\LoggingBehavior.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\LoggingBehavior.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\LoggingBehavior.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\LoggingBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:51.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPipelineBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:51:39.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ValidationFieldError.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\Errors\\ValidationFieldError.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\Errors\\ValidationFieldError.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\Errors\\ValidationFieldError.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\Errors\\ValidationFieldError.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:36:53.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISender.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\ISender.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\ISender.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\ISender.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\ISender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:36:44.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRequestHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\IRequestHandler.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\IRequestHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:36:39.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IRequest.cs",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\IRequest.cs",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\IRequest.cs",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\IRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:33:37.608Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MediatoR.Alternative.Lite.csproj",
-              "DocumentMoniker": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-              "RelativeDocumentMoniker": "MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-              "ToolTip": "C:\\Users\\Alexey\\source\\repos\\Libraries\\MediatoR.Alternative\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-              "RelativeToolTip": "MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-25T17:27:08.948Z",
+              "Title": "MediatorAltExtensionTests.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
+              "RelativeDocumentMoniker": "tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
+              "RelativeToolTip": "tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:29:13.581Z",
               "EditorCaption": ""
             }
           ]
