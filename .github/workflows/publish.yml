@@ -39,7 +39,7 @@ jobs:
 
       # Шаг 5: Тесты
       - name: Run tests
-        run: dotnet test ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln --configuration Release --no-build
+        run: dotnet test ./src/MediatoR.Alternative.Lite/tests/MediatoR.Alternative.Lite.Tests/MediatoR.Alternative.Lite.Tests.csproj --configuration Release --no-build
 
       # Шаг 6: Извлечение версии из тега (только для релизных сборок)
       - name: Extract version from tag
