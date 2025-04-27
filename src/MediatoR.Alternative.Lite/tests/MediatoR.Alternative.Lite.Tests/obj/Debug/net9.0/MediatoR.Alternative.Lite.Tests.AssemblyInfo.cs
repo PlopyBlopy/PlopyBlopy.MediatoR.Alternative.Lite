@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediatoR.Alternative.Lite.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0759feb4fa1ef838f94af4b9b3b04f18dfdd47ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a2e0e3f9ecb96482db933311af0aec7b3298089")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediatoR.Alternative.Lite.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediatoR.Alternative.Lite.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
