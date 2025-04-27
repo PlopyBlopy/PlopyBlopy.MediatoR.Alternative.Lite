@@ -55,7 +55,7 @@ namespace MediatoR.Alternative.Lite
         /// - Method name contains 'FluentValidation' but registers logging (potential misnaming)
         /// </remarks>
         public static IServiceCollection AddMediatorAltLogging(this IServiceCollection services)
-            => services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            => services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
 
         /// <summary>
         /// Adds validation pipeline behavior to the mediator
@@ -68,7 +68,7 @@ namespace MediatoR.Alternative.Lite
         /// - Requires validators to be registered separately
         /// </remarks>
         public static IServiceCollection AddMediatorAltFluentValidation(this IServiceCollection services)
-            => services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
+            => services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
     }
 }
 
