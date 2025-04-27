@@ -31,15 +31,15 @@ jobs:
 
       # Шаг 3: Восстановление зависимостей
       - name: Restore dependencies
-        run: dotnet restore ./src/MediatoR.Alternative.Lite/src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.csproj
-
+        run: dotnet restore ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln
+      
       # Шаг 4: Сборка
       - name: Build
-        run: dotnet build ./src/MediatoR.Alternative.Lite/src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.csproj --configuration Release --no-restore
+        run: dotnet build ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln --configuration Release --no-restore
 
       # Шаг 5: Тесты
       - name: Run tests
-        run: dotnet test ./src/MediatoR.Alternative.Lite/tests/MediatoR.Alternative.Lite.Tests/MediatoR.Alternative.Lite.Tests.csproj --configuration Release --no-build
+        run: dotnet test ./src/MediatoR.Alternative.Lite/MediatoR.Alternative.Lite.sln --configuration Release --no-build
 
       # Шаг 6: Извлечение версии из тега (только для релизных сборок)
       - name: Extract version from tag
