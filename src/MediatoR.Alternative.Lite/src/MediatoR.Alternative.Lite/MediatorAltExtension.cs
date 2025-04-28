@@ -71,8 +71,3 @@ namespace MediatoR.Alternative.Lite
             => services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
     }
 }
-
-//var handlers = Assembly.GetExecutingAssembly().GetTypes()
-//    .Where(t => t.GetInterfaces().Any(i =>
-//    i.IsGenericType &&
-//    i.GetGenericTypeDefinition() == typeof(IRequestHandler<,>)));

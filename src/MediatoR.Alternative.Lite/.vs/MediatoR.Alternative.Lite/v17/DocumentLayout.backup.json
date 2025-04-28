@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\ipipelinebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\ipipelinebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\sender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\mediatoraltextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\src\\mediator.alternative.lite\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A333CA58-FDBA-4A28-860D-00501B55F801}|src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj|solutionrelative:src\\mediator.alternative.lite\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A494E29-2043-4209-B52F-6C67AB4A55B1}|tests\\MediatoR.Alternative.Lite.Tests\\MediatoR.Alternative.Lite.Tests.csproj|c:\\repos\\libraries\\mediator.alternative.lite\\src\\mediator.alternative.lite\\tests\\mediator.alternative.lite.tests\\unit\\mediatoraltextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A494E29-2043-4209-B52F-6C67AB4A55B1}|tests\\MediatoR.Alternative.Lite.Tests\\MediatoR.Alternative.Lite.Tests.csproj|solutionrelative:tests\\mediator.alternative.lite.tests\\unit\\mediatoraltextensiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +47,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IRequest.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IRequest.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\IRequest.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IRequest.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\IRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:41.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRequestHandler.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\IRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:40.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:34.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPipelineBehavior.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\IPipelineBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:29.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISender.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\ISender.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\ISender.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\ISender.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\ISender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:19.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sender.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\Sender.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\Sender.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\Sender.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\Sender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:37:16.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MediatorAltExtension.cs",
+              "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
+              "RelativeDocumentMoniker": "src\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
+              "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
+              "RelativeToolTip": "src\\MediatoR.Alternative.Lite\\MediatorAltExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T17:26:11.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MediatorAltExtensionTests.cs",
               "DocumentMoniker": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
               "RelativeDocumentMoniker": "tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
               "ToolTip": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
               "RelativeToolTip": "tests\\MediatoR.Alternative.Lite.Tests\\Unit\\MediatorAltExtensionTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T15:29:13.581Z",
               "EditorCaption": ""

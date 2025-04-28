@@ -9,7 +9,7 @@
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>A lightweight Mediator alternative for Request processing, with Pipeline Behavior.</description>
     <tags>mediator</tags>
-    <repository type="git" url="https://github.com/PlopyBlopy/MediatoR.Alternative" commit="0759feb4fa1ef838f94af4b9b3b04f18dfdd47ba" />
+    <repository type="git" url="https://github.com/PlopyBlopy/MediatoR.Alternative" commit="3fb73901d9e2ef21f1b6e1281c1d7cc4c0ab3380" />
     <dependencies>
       <group targetFramework="net9.0">
         <dependency id="FluentResults" version="3.16.0" exclude="Build,Analyzers" />

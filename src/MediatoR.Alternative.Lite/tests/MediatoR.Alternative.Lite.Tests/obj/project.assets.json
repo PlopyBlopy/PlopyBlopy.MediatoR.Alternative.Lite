@@ -1230,7 +1230,8 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/PlopyBlopy/index.json": {}
       },
       "frameworks": {
         "net9.0": {
