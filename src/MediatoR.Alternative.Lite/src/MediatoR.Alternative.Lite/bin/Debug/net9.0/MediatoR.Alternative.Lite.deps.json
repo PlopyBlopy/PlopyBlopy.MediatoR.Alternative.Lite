@@ -9,6 +9,7 @@
       "MediatoR.Alternative.Lite/0.0.0": {
         "dependencies": {
           "FluentResults": "3.16.0",
+          "FluentResults.Errors": "1.0.2",
           "FluentValidation": "11.11.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
         },
@@ -25,6 +26,17 @@
           "lib/netstandard2.1/FluentResults.dll": {
             "assemblyVersion": "3.16.0.0",
             "fileVersion": "3.16.0.0"
+          }
+        }
+      },
+      "FluentResults.Errors/1.0.2": {
+        "dependencies": {
+          "FluentResults": "3.16.0"
+        },
+        "runtime": {
+          "lib/net9.0/FluentResults.Errors.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -67,6 +79,13 @@
       "sha512": "sha512-VWacGzOyN9k7LOKqiNLnFvqTDLbFvepHlINdM3pPTD0YWI+a+VW/Q9gcx4gmJDpDZ32cAsczz5vmRjLCL5UOhA==",
       "path": "fluentresults/3.16.0",
       "hashPath": "fluentresults.3.16.0.nupkg.sha512"
+    },
+    "FluentResults.Errors/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QrHpTk2ASfLChgVlSmMB7u882lpZQnAOSaw1TgUnJcpNPP8Fba8or1EsbJpfgidy96ddYx0+ufni25ug5NSP+Q==",
+      "path": "fluentresults.errors/1.0.2",
+      "hashPath": "fluentresults.errors.1.0.2.nupkg.sha512"
     },
     "FluentValidation/11.11.0": {
       "type": "package",

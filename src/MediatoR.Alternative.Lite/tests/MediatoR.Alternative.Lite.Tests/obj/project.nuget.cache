@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TZ7uFaLRr0w=",
+  "dgSpecHash": "0Mx0evBDJ5A=",
   "success": true,
   "projectFilePath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\tests\\MediatoR.Alternative.Lite.Tests\\MediatoR.Alternative.Lite.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexey\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Alexey\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
+    "C:\\Users\\Alexey\\.nuget\\packages\\fluentresults.errors\\1.0.2\\fluentresults.errors.1.0.2.nupkg.sha512",
     "C:\\Users\\Alexey\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Alexey\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
     "C:\\Users\\Alexey\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",

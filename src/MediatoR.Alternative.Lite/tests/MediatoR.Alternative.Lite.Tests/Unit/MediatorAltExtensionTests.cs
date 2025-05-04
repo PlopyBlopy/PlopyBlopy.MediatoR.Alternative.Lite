@@ -6,8 +6,6 @@ namespace MediatoR.Alternative.Lite.Tests.Unit
 {
     public class MediatorAltExtensionTests
     {
-        //public void AddMediatorAlt_ScanAssemblyWhereDefined_AddHandlers()
-
         [Fact]
         public void AddMediatorAlt_EqualAssembly_IsEqualAssemblies()
         {

@@ -19,6 +19,22 @@
           }
         }
       },
+      "FluentResults.Errors/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentResults": "3.16.0"
+        },
+        "compile": {
+          "lib/net9.0/FluentResults.Errors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/FluentResults.Errors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.11.0": {
         "type": "package",
         "compile": {
@@ -88,6 +104,22 @@
         "lib/netstandard2.0/FluentResults.xml",
         "lib/netstandard2.1/FluentResults.dll",
         "lib/netstandard2.1/FluentResults.xml"
+      ]
+    },
+    "FluentResults.Errors/1.0.2": {
+      "sha512": "QrHpTk2ASfLChgVlSmMB7u882lpZQnAOSaw1TgUnJcpNPP8Fba8or1EsbJpfgidy96ddYx0+ufni25ug5NSP+Q==",
+      "type": "package",
+      "path": "fluentresults.errors/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        "README.md",
+        "fluentresults.errors.1.0.2.nupkg.sha512",
+        "fluentresults.errors.nuspec",
+        "icon.png",
+        "lib/net9.0/FluentResults.Errors.dll",
+        "lib/net9.0/FluentResults.Errors.xml",
+        "localized/en-us/README.md",
+        "localized/ru-ru/README.md"
       ]
     },
     "FluentValidation/11.11.0": {
@@ -199,6 +231,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "FluentResults >= 3.16.0",
+      "FluentResults.Errors >= 1.0.2",
       "FluentValidation >= 11.11.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.4"
     ]
@@ -258,6 +291,10 @@
             "target": "Package",
             "version": "[3.16.0, )"
           },
+          "FluentResults.Errors": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "FluentValidation": {
             "target": "Package",
             "version": "[11.11.0, )"
@@ -286,5 +323,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "No Authorization header detected"
+    }
+  ]
 }

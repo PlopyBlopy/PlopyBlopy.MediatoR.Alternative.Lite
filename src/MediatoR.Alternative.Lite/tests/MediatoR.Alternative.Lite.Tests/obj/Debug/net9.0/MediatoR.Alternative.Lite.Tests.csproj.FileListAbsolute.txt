@@ -107,3 +107,4 @@ C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\tests
 C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\tests\MediatoR.Alternative.Lite.Tests\obj\Debug\net9.0\ref\MediatoR.Alternative.Lite.Tests.dll
 C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\tests\MediatoR.Alternative.Lite.Tests\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\tests\MediatoR.Alternative.Lite.Tests\bin\Debug\net9.0\MediatoR.Alternative.Lite.xml
+C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\tests\MediatoR.Alternative.Lite.Tests\bin\Debug\net9.0\FluentResults.Errors.dll

@@ -1,6 +1,6 @@
 ﻿using FluentResults;
+using FluentResults.Errors;
 using FluentValidation;
-using MediatoR.Alternative.Lite.Errors;
 
 namespace MediatoR.Alternative.Lite
 {
@@ -42,7 +42,7 @@ namespace MediatoR.Alternative.Lite
                 .Select(e => new ValidationFieldError(
                     message: e.ErrorMessage,
                     errorCode: e.ErrorCode,
-                    propertyName: e.PropertyName,
+                    fieldName: e.PropertyName,
                     attemptedValue: e.AttemptedValue))
                 .ToList();
 
