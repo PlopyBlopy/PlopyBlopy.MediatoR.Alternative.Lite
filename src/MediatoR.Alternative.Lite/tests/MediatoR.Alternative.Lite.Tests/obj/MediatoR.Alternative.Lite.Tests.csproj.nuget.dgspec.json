@@ -8,7 +8,7 @@
       "version": "0.0.0",
       "restore": {
         "projectUniqueName": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-        "projectName": "MediatoR.Alternative.Lite",
+        "projectName": "PlopyBlopy.MediatoR.Alternative.Lite",
         "projectPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
         "packagesPath": "C:\\Users\\Alexey\\.nuget\\packages\\",
         "outputPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\obj\\",
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/PlopyBlopy/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -57,7 +56,7 @@
             },
             "FluentResults.Errors": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[1.0.4, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -110,8 +109,7 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.pkg.github.com/PlopyBlopy/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {

@@ -19,7 +19,7 @@
           }
         }
       },
-      "FluentResults.Errors/1.0.2": {
+      "FluentResults.Errors/1.0.4": {
         "type": "package",
         "dependencies": {
           "FluentResults": "3.16.0"
@@ -106,14 +106,15 @@
         "lib/netstandard2.1/FluentResults.xml"
       ]
     },
-    "FluentResults.Errors/1.0.2": {
-      "sha512": "QrHpTk2ASfLChgVlSmMB7u882lpZQnAOSaw1TgUnJcpNPP8Fba8or1EsbJpfgidy96ddYx0+ufni25ug5NSP+Q==",
+    "FluentResults.Errors/1.0.4": {
+      "sha512": "RULqZldnGsH5egzvAD2fgfOu35qVpeAoTjfym9fw3ps59Zk9g2oTVZAgQK5nvdkskcVdrVC5f873InHL1+NChg==",
       "type": "package",
-      "path": "fluentresults.errors/1.0.2",
+      "path": "fluentresults.errors/1.0.4",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "README.md",
-        "fluentresults.errors.1.0.2.nupkg.sha512",
+        "fluentresults.errors.1.0.4.nupkg.sha512",
         "fluentresults.errors.nuspec",
         "icon.png",
         "lib/net9.0/FluentResults.Errors.dll",
@@ -231,7 +232,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "FluentResults >= 3.16.0",
-      "FluentResults.Errors >= 1.0.2",
+      "FluentResults.Errors >= 1.0.4",
       "FluentValidation >= 11.11.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 9.0.4"
     ]
@@ -244,7 +245,7 @@
     "version": "0.0.0",
     "restore": {
       "projectUniqueName": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
-      "projectName": "MediatoR.Alternative.Lite",
+      "projectName": "PlopyBlopy.MediatoR.Alternative.Lite",
       "projectPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\MediatoR.Alternative.Lite.csproj",
       "packagesPath": "C:\\Users\\Alexey\\.nuget\\packages\\",
       "outputPath": "C:\\repos\\Libraries\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\src\\MediatoR.Alternative.Lite\\obj\\",
@@ -262,8 +263,7 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/PlopyBlopy/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
@@ -293,7 +293,7 @@
           },
           "FluentResults.Errors": {
             "target": "Package",
-            "version": "[1.0.2, )"
+            "version": "[1.0.4, )"
           },
           "FluentValidation": {
             "target": "Package",
@@ -323,13 +323,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "No Authorization header detected"
-    }
-  ]
+  }
 }

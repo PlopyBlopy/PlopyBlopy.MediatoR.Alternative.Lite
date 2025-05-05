@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MediatoR.Alternative.Lite</id>
+    <version>0.0.0</version>
+    <title>MediatoR.Alternative.Lite</title>
+    <authors>PlopyBlopy</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A lightweight Mediator alternative for Request processing, with Pipeline Behavior.</description>
+    <tags>mediator</tags>
+    <repository type="git" url="https://github.com/PlopyBlopy/MediatoR.Alternative" commit="91e0b31360cd317632f3e9e5ddbeab95c386524a" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="FluentResults" version="3.16.0" exclude="Build,Analyzers" />
+        <dependency id="FluentResults.Errors" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="11.11.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="9.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Release\net9.0\MediatoR.Alternative.Lite.dll" target="lib\net9.0\MediatoR.Alternative.Lite.dll" />
+    <file src="C:\repos\Libraries\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin\Release\net9.0\MediatoR.Alternative.Lite.xml" target="lib\net9.0\MediatoR.Alternative.Lite.xml" />
+  </files>
+</package>

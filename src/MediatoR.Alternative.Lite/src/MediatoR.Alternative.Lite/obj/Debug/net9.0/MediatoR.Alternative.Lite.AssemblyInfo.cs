@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A lightweight Mediator alternative for Request processing, with Pipeline Behavior" +
     ".")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+fd7bb98c01a517ecbf6e58e766d55c4ce28d7100")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+91e0b31360cd317632f3e9e5ddbeab95c386524a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediatoR.Alternative.Lite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediatoR.Alternative.Lite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.0")]

@@ -9,7 +9,7 @@ on:
 
 env:
   DOTNET_VERSION: "9.0.x"
-  PACKAGE_NAME: "MediatoR.Alternative.Lite"
+  PACKAGE_NAME: "PlopyBlopy.MediatoR.Alternative.Lite"
 
 jobs:
   build-and-publish:
@@ -72,3 +72,10 @@ jobs:
             --source "github" \
             --api-key ${{ secrets.GITHUB_TOKEN }} \
             --skip-duplicate
+
+      - name: Push to nuget.org
+        if: contains(github.ref, 'tags/v')
+        run: |
+          dotnet nuget push ./artifacts/*.nupkg \
+            --source "https://api.nuget.org/v3/index.json" \
+            --api-key ${{ secrets.NUGET_API_KEY }} 
