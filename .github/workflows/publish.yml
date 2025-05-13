@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write  # Добавляем права на запись
+      packages: write 
       
     steps:
       # Шаг 1: Получение кода
