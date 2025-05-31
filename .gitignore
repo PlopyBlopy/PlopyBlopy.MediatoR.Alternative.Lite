@@ -1,7 +1,7 @@
 nuget.config
 desktop.ini
 
-.vs
+.\.vs
 src\MediatoR.Alternative.Lite\.vs
 src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\bin
 src\MediatoR.Alternative.Lite\src\MediatoR.Alternative.Lite\obj
