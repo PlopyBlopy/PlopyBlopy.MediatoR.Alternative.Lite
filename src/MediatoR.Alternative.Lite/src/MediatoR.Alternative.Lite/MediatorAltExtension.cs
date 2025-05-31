@@ -45,6 +45,50 @@ namespace MediatoR.Alternative.Lite
         }
 
         /// <summary>
+        /// Registers all request handlers from specified assemblies
+        /// </summary>
+        /// <param name="services">Service collection</param>
+        /// <param name="assemblies">Assemblies to scan for handler implementations</param>
+        /// <returns>Configured service collection</returns>
+        /// <remarks>
+        /// <para>Automatically discovers and registers:</para>
+        /// <list type="bullet">
+        /// <item><description>All IRequestHandler&lt;TRequest, TResponse&gt; implementations in provided assemblies</description></item>
+        /// <item><description>Handlers implementing multiple request handler interfaces</description></item>
+        /// </list>
+        /// <para>Allows explicit control over scanned assemblies when automatic discovery from executing assembly is insufficient.</para>
+        /// </remarks>
+        public static IServiceCollection AddMediatorAlt(this IServiceCollection services, params Assembly[] assemblies)
+        {
+            services.AddScoped<ISender, Sender>();
+
+            var handlers = assemblies
+                .SelectMany(asm => asm.GetTypes())
+                .Where(t => t.GetInterfaces()
+                .Any(i => i.IsGenericType &&
+                          i.GetGenericTypeDefinition() == typeof(IRequestHandler<,>)))
+                .ToList();
+
+            if (handlers.Any())
+            {
+                foreach (var handler in handlers)
+                {
+                    var interfaces = handler.GetInterfaces()
+                        .Where(i => i.IsGenericType &&
+                                    i.GetGenericTypeDefinition() == typeof(IRequestHandler<,>));
+
+                    // Register each handler interface separately
+                    foreach (var @interface in interfaces)
+                    {
+                        services.AddTransient(@interface, handler);
+                    }
+                }
+            }
+
+            return services;
+        }
+
+        /// <summary>
         /// Adds logging pipeline behavior to the mediator
         /// </summary>
         /// <param name="services">Service collection</param>
