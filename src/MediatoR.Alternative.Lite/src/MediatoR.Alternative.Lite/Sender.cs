@@ -25,14 +25,15 @@ namespace MediatoR.Alternative.Lite
             var requestType = request.GetType();
             var responseType = typeof(TResponse);
 
-            // Create generic handler type (IRequestHandler<TRequest, TResponse>)
-            var handlerType = typeof(IRequestHandler<,>).MakeGenericType(requestType, responseType);
+            //// Create generic handler type (IRequestHandler<TRequest, TResponse>)
+            //var handlerType = typeof(IRequestHandler<,>).MakeGenericType(requestType, responseType);
 
-            // Resolve handler dynamically from service provider
-            dynamic handler = _serviceProvider.GetRequiredService(handlerType);
+            //// Resolve handler dynamically from service provider
+            //dynamic handler = _serviceProvider.GetRequiredService(handlerType);
 
             // Execute the request processing pipeline
-            return await SendPipeline(request, handler, requestType, responseType, ct);
+            //return await SendPipeline(request, handler, requestType, responseType, ct);
+            return await SendPipeline(request, requestType, responseType, ct);
         }
 
         /// <summary>
@@ -45,16 +46,25 @@ namespace MediatoR.Alternative.Lite
         /// <param name="responseType">Type of the response</param>
         /// <param name="ct">Cancellation token</param>
         /// <returns>Result wrapped response</returns>
-        private async Task<Result<TResponse>> SendPipeline<TResponse>(IRequest<TResponse> request, object handler, Type requestType, Type responseType, CancellationToken ct = default)
+        ///
+        //private async Task<Result<TResponse>> SendPipeline<TResponse>(IRequest<TResponse> request, object handler, Type requestType, Type responseType, CancellationToken ct = default)
+        private async Task<Result<TResponse>> SendPipeline<TResponse>(IRequest<TResponse> request, Type requestType, Type responseType, CancellationToken ct = default)
         {
             // Get handler's Handle method using reflection
-            var handleMethod = handler.GetType().GetMethod("Handle");
+            //var handleMethod = handler.GetType().GetMethod("Handle");
 
             // Create base pipeline: direct handler execution
             Func<Task<Result<TResponse>>> pipeline = async () =>
             {
-                var result = (Task<Result<TResponse>>)handleMethod.Invoke(handler, new object[] { request, ct });
-                return await result;
+                // Create generic handler type (IRequestHandler<TRequest, TResponse>)
+                var handlerType = typeof(IRequestHandler<,>).MakeGenericType(requestType, responseType);
+
+                // Resolve handler dynamically from service provider
+                dynamic handler = _serviceProvider.GetRequiredService(handlerType);
+
+                var handleMethod = handler.GetType().GetMethod("Handle");
+
+                return await (Task<Result<TResponse>>)handleMethod.Invoke(handler, new object[] { request, ct });
             };
 
             // Resolve all pipeline behaviors in reverse order (outermost behavior first)
@@ -63,7 +73,7 @@ namespace MediatoR.Alternative.Lite
                 .Reverse()
                 .ToList();
 
-            // Wrap each behavior around the current pipeline
+            //Wrap each behavior around the current pipeline
             foreach (var behavior in behaviors)
             {
                 var currentBehavior = behavior;
@@ -82,6 +92,15 @@ namespace MediatoR.Alternative.Lite
                     return await result;
                 };
             }
+
+            //var pipeline = behaviors.Aggregate(
+            //    rootHandler,
+            //    (next, behavior) => () =>
+            //    {
+            //        dynamic dynamicBehavior = behavior;
+            //        return dynamicBehavior.Handle(request, ct, () => next());
+            //    }
+            //);
 
             // Execute the full pipeline
             return await pipeline();
