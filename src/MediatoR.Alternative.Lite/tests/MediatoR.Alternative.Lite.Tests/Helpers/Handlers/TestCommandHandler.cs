@@ -3,7 +3,7 @@ using MediatoR.Alternative.Lite.Tests.Helpers.Requests;
 
 namespace MediatoR.Alternative.Lite.Tests.Helpers.Handlers
 {
-    public class TestCommandHandler : IRequestHandler<TestCommand, TestResponse>
+    public class TestCommandHandler : ICommandHandler<TestCommand, TestResponse>
     {
         public Task<Result<TestResponse>> Handle(TestCommand request, CancellationToken ct)
         {

@@ -1,4 +1,5 @@
 ﻿using FluentResults;
+using MediatoR.Alternative.Lite.Tests.Helpers.Requests;
 
 namespace MediatoR.Alternative.Lite.Tests.Helpers.Handlers
 {

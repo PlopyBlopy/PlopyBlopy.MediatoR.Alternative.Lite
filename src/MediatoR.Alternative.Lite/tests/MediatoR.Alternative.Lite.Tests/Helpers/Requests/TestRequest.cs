@@ -1,4 +1,5 @@
-﻿using MediatoR.Alternative.Lite;
-
-public class TestRequest() : IRequest<TestResponse>
-{ }
+﻿namespace MediatoR.Alternative.Lite.Tests.Helpers.Requests
+{
+    public class TestRequest() : IRequest<TestResponse>
+    { }
+}

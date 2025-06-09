@@ -3,7 +3,7 @@ using MediatoR.Alternative.Lite.Tests.Helpers.Requests;
 
 namespace MediatoR.Alternative.Lite.Tests.Helpers.Handlers
 {
-    public class TestQueryHandler : IRequestHandler<TestQuery, TestResponse>
+    public class TestQueryHandler : IQueryHandler<TestQuery, TestResponse>
     {
         public Task<Result<TestResponse>> Handle(TestQuery request, CancellationToken ct)
         {

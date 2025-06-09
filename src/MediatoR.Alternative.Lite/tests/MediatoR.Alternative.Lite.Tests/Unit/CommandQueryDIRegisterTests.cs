@@ -18,12 +18,12 @@ namespace MediatoR.Alternative.Lite.Tests.Unit
             services.AddMediatorAlt(); // Calling from the test → GetCallingAssembly() = test assembly
 
             // Assert
-            var handlerType = typeof(IRequestHandler<TestCommand, TestResponse>);
+            var handlerType = typeof(IRequestHandler<TestRequestCommand, TestResponse>);
             var registration = services.FirstOrDefault(s => s.ServiceType == handlerType);
 
             Assert.NotNull(registration);
             //We check that TestHandler is registered for IRequestHandler<TestCommand, Test Response>.
-            Assert.Equal(typeof(TestCommandHandler), registration.ImplementationType);
+            Assert.Equal(typeof(TestRequestCommandHandler), registration.ImplementationType);
             //Making sure that the TestHandler type belongs to the test build.
             Assert.Equal(expectedAssembly, registration.ImplementationType.Assembly);
         }
@@ -39,12 +39,12 @@ namespace MediatoR.Alternative.Lite.Tests.Unit
             services.AddMediatorAlt(); // Calling from the test → GetCallingAssembly() = test assembly
 
             // Assert
-            var handlerType = typeof(IRequestHandler<TestQuery, TestResponse>);
+            var handlerType = typeof(IRequestHandler<TestRequestQuery, TestResponse>);
             var registration = services.FirstOrDefault(s => s.ServiceType == handlerType);
 
             Assert.NotNull(registration);
             //We check that TestHandler is registered for IRequestHandler<TestQuery, Test Response>.
-            Assert.Equal(typeof(TestQueryHandler), registration.ImplementationType);
+            Assert.Equal(typeof(TestRequestQueryHandler), registration.ImplementationType);
             //Making sure that the TestHandler type belongs to the test build.
             Assert.Equal(expectedAssembly, registration.ImplementationType.Assembly);
         }
